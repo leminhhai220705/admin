@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.container {
+  width: 1200px;
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+.heading {
+  font-size: 2rem;
+  font-weight: 300;
+  margin-bottom: 2rem;
+  &.center {
+    text-align: center;
+  }
+}
+
+
+
+.form-wrapper {
+  width: 540px;
+  max-width: 100%;
+  margin: 0 auto;
+  .input-group {
+    margin-bottom: 1rem;
+  }
+  label {
+    display: block;
+    margin-bottom: 1rem;
+  }
+  
+  input {
+    display: block;
+    width: 100%; 
+    padding: 0.5rem 0;
+    text-indent: 10px;
+    font-size: 1rem;
+    font-size: 1rem;
+  }
+
+  button {
+    display: block;
+    width: 100%;
+    background-color: gray;
+    color: white;
+    padding: 1rem 0rem;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+  button:hover{
+    background-color: black;
+  }
+
+  textarea {
+    display: block; /* Đảm bảo textarea là khối */
+    width: 100%; /* Chiều rộng 100% */
+    padding: 0.5rem 0; /* Padding trên và dưới */
+    text-indent: 10px; /* Khoảng cách từ viền tới văn bản */
+    font-size: 1rem; /* Kích thước font chữ */
+    resize: vertical; /* Cho phép thay đổi chiều cao theo phương dọc */
+    /* Bạn có thể thêm thuộc tính height nếu muốn chiều cao cố định */
+    height: 150px; /* Chiều cao cố định */
+}
+}
+
